@@ -1,0 +1,378 @@
+/* By William Bracho Blok*/
+
+
+h1{
+	font-family: 'Audiowide', cursive;
+	font-size: 3em;
+	color: rgb(220,255,220);
+	text-align: left;
+}
+
+body{
+	margin:auto;
+    padding:0;
+    background-image: url(tilingBackgroundV2.jpg);
+	background-attachment: fixed;
+
+}
+
+h2{
+	color: rgb(220,255,220);
+	font-family: 'Audiowide', cursive;
+	font-size: 2em;
+}
+
+h3{
+	color: rgb(220,255,220);
+	font-family: 'Audiowide', cursive;
+	font-size: 1.7em;
+	padding: 1.5em 0;
+	margin:0;
+}
+
+h4{
+	color: rgb(220,255,220);
+	font-family: 'Audiowide', cursive;
+	font-size: 1.3em;
+	padding: 1em 0;
+	margin:0;
+}
+
+.banner{
+	
+	margin: 0px;
+	padding:2em 8%;
+	max-width: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,171c12+100&1+0,0.15+100 */
+	
+	
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(23,28,18,0.15) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(23,28,18,0.15) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(23,28,18,0.15) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#26171c12',GradientType=0 ); /* IE6-9 */
+}
+
+.bannerWrap{
+	max-width:1600px;
+	margin:auto;
+}
+
+.footerWrap{
+	margin:auto;
+	max-width: 1900px;
+}
+
+.banner h2{
+	margin: 0;
+}
+
+.banner img{
+	float: right;
+}
+
+.bannerLeft{
+	width: 75%;
+}
+
+.bannerRight{
+	width: 25%;
+	float:right;
+}
+
+.footerLeft{
+	display: block;
+	width: 42%;
+	margin-left: 8%;
+}
+
+.footerRight{
+	width: 42%;
+	float:right;
+	margin-right: 8%;
+}
+
+p, .midLeftColumn ul, .midRightColumn ul, .pageContent li {
+	color: rgb(220,255,220);
+	font-family:'Coda', cursive;
+ 	font-size: 1.1em;
+	line-height: 2em;
+}
+
+.midRightColumn ul{
+	padding: 0 20%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #00AC00;
+}
+
+a:visited{
+	text-decoration: none;
+    color: #00AC00;
+}
+
+a:hover,a:active{
+	text-decoration: none;
+	color: rgb(86,255,86);
+}
+
+
+.mainMenu{
+	overflow: hidden;
+  	width: 100%;
+}
+
+.mainMenu ul, .button{
+	list-style: none;
+	padding: 0;
+	font-family: 'Audiowide', cursive;
+	font-size: 1.5em;
+}
+
+.mainMenu li, .button{
+	float:left;
+	padding: 0.5em 0.5em;
+	margin: 2em 2em 0 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,dcffdc+95,dcffdc+100&0+0,0.2+95,1+100 */
+	background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(220,255,220,0.2) 95%, rgba(220,255,220,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(220,255,220,0.2) 95%,rgba(220,255,220,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(220,255,220,0.2) 95%,rgba(220,255,220,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#dcffdc',GradientType=0 ); /* IE6-9 */
+ }
+
+
+
+.pageContent{
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	padding: 0 8%;
+	max-width: 1600px;
+	display: table;
+}
+
+.contentLeftColumn, .midLeftColumn, .midRightColumn{
+	margin: 0;
+	padding: 0;
+	width: 62.5%;
+	display: inline-table;
+	float: left;
+}
+
+.midRightColumn{
+	float: right;
+	width: 50%;
+}
+
+.midRightColumn img{
+	float: right;
+	width: 80%;
+	height: auto;
+}
+
+.midRightColumn p{
+	padding: 0 10%;
+}
+
+.midRightColumn iframe{
+	margin: auto;
+	display: block;
+	width: 80%
+}
+
+.itchFrame{
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.midRightColumn h3, .midRightColumn p{
+	margin: auto;
+	width: 80%;
+}
+
+.midLeftColumn{
+	width: 50%;
+}
+
+.midLeftColumn ul{
+	width: 50%;
+}
+
+.contentRightColumn{
+	margin: 0;
+	float: right;
+	width: 37.5%;
+}
+
+.contentRightColumn img{
+	width: 60%;
+	height: 60%;
+	padding: 2em 0;
+	margin: auto;
+    display: block;
+}
+.contentRightColumn h3{
+	margin: auto;
+    text-align: center;
+	width: 60%;
+	padding: 0;
+}
+
+
+
+#gameGallery{
+	width: 100%;
+	display: inline-block;
+}
+
+
+
+.floatedImages{
+	float:left;
+	margin:8% 10% 0 0;
+	transition: transform 0.2s linear;
+}
+
+.floatedImagesV2{
+	float:left;
+	margin:4% 5% 0 0;
+	transition: transform 0.2s linear;
+}
+
+.floatedImages:hover{
+	transform: scale(1.1);
+}
+
+.floatedImages h3{
+	margin: auto;
+    text-align: center;
+}
+
+
+
+
+.leftColumn h3, .rightColumn h3{
+	font-size: 1.5em;
+}
+
+.rightColumn iframe {
+		padding: 2% 0;
+}
+
+
+footer{
+	clear: right;
+	max-width: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#171c12+0,000000+100&0.15+0,1+100 */
+	background: -moz-linear-gradient(top, rgba(23,28,18,0.15) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(23,28,18,0.15) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(23,28,18,0.15) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26171c12', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	
+	padding: 2% 0;
+	top:8em;
+	bottom: 0;
+	position: relative;
+}
+
+
+footer p{
+	font-size: 1em;
+}
+
+#buggyThing1{
+	width: 80%; 
+	float:right;
+}
+
+@media only screen and (max-width: 1200px){
+
+	
+	.contentLeftColumn, .contentRightColumn, .midRightColumn, .midLeftColumn{
+		width: 100%;
+		float: none;
+	}
+	
+	.midRightColumn, .contentRightColumn{
+		margin-top: 15%;
+	}
+	
+	.midRightColumn img{
+		display: block;
+		margin: 10%;
+		height: auto;
+	}
+	
+	
+	.floatedImages{
+		float:none;
+		margin: 10% auto;
+		clear: both;
+		text-align: center;
+		max-width: 500px;	
+	}
+		
+	.floatedImages img{
+		width: 100%;
+		height: auto;
+	}
+	
+	.bannerLeft{
+		width: 100%;
+	}
+	
+	.bannerRight{
+		width: 0;
+	}
+	
+	.footerRight img{
+		width:80%;
+	}
+	
+	/*mobile stuff*/
+	
+	.mainMenu ul, .button{
+
+		font-size: 2.5em;
+	}
+	
+	h1{
+		font-size: 4em;
+	}
+	
+	h2{
+		font-size: 3em;
+	}
+	
+	h3{
+		font-size: 2em;
+	}
+	
+	.floatedImages:hover{
+	transform: scale(1.05);
+	}
+	
+	footer{
+		margin-top: 20%;
+	}
+	
+	#buggyThing1{
+		float: none;
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 460px){
+	.footerRight img{
+		width: 0;
+	}
+	
+	footer{
+		margin-top: 25%;
+	}
+}
+
+
+
+

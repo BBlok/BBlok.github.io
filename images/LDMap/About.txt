@@ -1,0 +1,57 @@
+<h1>Unreal Tournament 4 CTF Map: Egocentric Empanadas</h1>
+
+Egocentric Empanadas is a Capture the Flag (CTF) multiplayer map 
+developed for Unreal Tournament 4 where two opposing teams fight 
+against each other to capture the other team’s flag to return it 
+to their base to score points. This is a map designed for 8 players 
+(4 players per team) with a focus on fast-pace gameplay. 
+
+This is an open space arena floating in space with almost no enclosed rooms. 
+Its overall shape is lineal so that the bases are at 
+opposite ends of the map and are directly facing each other.This map 
+also makes extensive use of jump pads with long trajectories for players 
+to quickly fly around the map while dodging enemies and engaging in mid-air combat.
+
+The link below has a packaged version of the map that is ready to play
+
+<link>
+
+<h2>Development Overview</h2>
+
+This is a project from one of my level design classes that I took at SMU Guildhall, and for this project, I decided
+that I wanted to create a level with unique features and style that
+would make the gameplay unique and enjoyable. Given that many players
+enjoy fast and exciting gameplay and that Unreal Tournament 4 gives the player some 
+interesting movement abilities, I decided that I wanted to design a level with these ideas
+in mind and experiment with a design that would also make extensive use of mid-air
+combat, which has shown potential for being fun in previous games.
+
+I started out designing this level by doing sketches to figure out the overall shape of the level
+and laying down the main components of a CTF map, such as the team bases, outer base, and midground as 
+well as planning the distribution of resources, such as weapons, health and armor pickups. After drafting
+a promising design, I proceeded to prototype the level in Unreal Tournament Editor using BSP brushes 
+to quickly block out the gameplay space of the level and leaving the aesthetics details for later. Once I had 
+a playable level with all the promised features, I then started to iterate and refine the level gameplay 
+after playtesting with other players and gathering their feedback.
+
+Once I had a solid gameplay layed out in my map, I then started to work on the aesthetics of the level;
+I begun to replace the BSP brushes with static meshes and work on the lighting to make the level more
+aesthetically pleasant and refine its look to achieve its current state 
+
+<h2> About The Map's Name </h2>
+
+The name of this map emerged from the original shape that the outer base area had 
+during the gameplay design stage; the outer base consisted of two semi-circular platforms
+that resemble the shape of empanadas, and because these empanada-shaped platforms were
+surrounding the bases and keeping these for themselves, they were deemed egocentric. 
+
+During the development of the level aesthetics, replicating the shape of these platforms 
+with static meshes without making it look weird was a hard thing to do, and because we
+were not allowed to use custom mesh models to construct our maps, I decided to simplify
+the shape of the outer base area to make it easier to construct with the given modular
+pieces and achieve a more polished-looking look for these platforms.Egocentric Empanadas was 
+in fact the working name for this map, and because it was a catchy, fun, and unique 
+name that was well liked among my peers, I decided to keep it and make it part of the 
+gimmick of the level: Egocentric Empanadas!  
+
+
