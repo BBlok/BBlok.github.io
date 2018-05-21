@@ -9,7 +9,7 @@ h1{
 }
 
 body{
-	margin:auto;
+	margin:0;
     padding:0;
     background-image: url(tilingBackgroundV2.jpg);
 	background-attachment: fixed;
@@ -144,7 +144,7 @@ a:hover,a:active{
 
 
 .pageContent{
-	margin: auto;
+	margin:0;
 	margin-top: 4%;
 	margin-bottom: 4%;
 	padding: 0 8%;
