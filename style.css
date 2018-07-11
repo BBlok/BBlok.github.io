@@ -38,6 +38,64 @@ h4{
 	margin:0;
 }
 
+h5{
+	color: rgb(220,255,220);
+	font-family: 'Audiowide', cursive;
+	font-size: 1em;
+	padding: 1em 0;
+	margin:0;
+}
+
+.resumeSection h3{
+	
+	padding: 0em 0em 1em 0;
+}
+
+.resumeSection .negrita{
+	color: #9dac00;
+	font-family: 'Audiowide', cursive;
+	font-size: 1.1em;
+	display:inline;
+	padding-right: 1em;
+}
+
+.resumeSection h4{
+	clear: both;
+	padding: 0;
+	border-style: solid;
+	margin: 1em 0;
+	color: #00ac9d;
+}
+
+.resumeSection h5{
+	color: #9dac00;
+	font-family: 'Audiowide', cursive;
+	font-size: 1.1em;
+}
+
+.resumeSection p{
+	display: inline;
+}
+
+.resumeSection ul{
+	margin: 0;
+}
+
+.resumeElement{
+	padding: 0.6em 0;
+}
+
+.resumeFloatedElement{
+	float:left;
+	display: inline-block;
+	margin: 0 2em;
+}
+
+.resumeFloatedSection{
+	display:inline-block;
+	margin: 1em;
+}
+
 .banner{
 	
 	margin: 0px;
@@ -373,6 +431,10 @@ footer p{
 	}
 }
 
-
+@media only screen and (max-width: 1200px){
+	.resumeFloatedSection{
+		max-width: 700px;
+	}
+}
 
 
