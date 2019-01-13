@@ -1,4 +1,4 @@
 YOU HAVE FOUND A SECRET!
 
-Current website version: 3.7
-Last modified: 1/10/2019 @ 9:32
+Current website version: 3.9
+Last modified: 1/13/2019 @ 2:58
