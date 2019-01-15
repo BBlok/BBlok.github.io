@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<title>William Bracho Blok</title>
 
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styleV2.css">
 
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Coda" rel="stylesheet">
 	
@@ -38,8 +38,8 @@
 							<div class="mainMenu">
 								<ul>
 									<li><a href="index.html">Home</a></li>
-									<li><a href="2dgames.html">2D Game Projects</a></li>
-									<li><a href="3dgames.html">3D Game Projects</a></li>
+									<li><a href="individualProjects.html">Individual Projects</a></li>
+									<li><a href="teamProjects.html">Team Projects</a></li>
 									<li><a href="resume.html">Resume</a></li>
 								</ul>
 							</div>
@@ -52,154 +52,158 @@
 
 		<!-- End of header -->
 		
-		
-		<div class="pageContent">
-			<h2>Egocentric Empanadas</h2>
-			
-			<div class = "midLeftColumn">
-				<p>
-					This is a project from one of my level design classes that I took at SMU Guildhall, and for this project, I decided
-					that I wanted to create a level with unique features and style that
-					would make the gameplay unique and enjoyable. Given that many players
-					enjoy fast and exciting gameplay and that Unreal Tournament 4 gives the player some 
-					interesting movement abilities, I decided that I wanted to design a level with these ideas
-					in mind and experiment with a design that would also make extensive use of mid-air
-					combat, which has shown potential for being fun in previous games.
-				</p>
+		<div class="contentBounds">
+			<div class="pageSection">
+				<h2>Egocentric Empanadas</h2>
+				
+				<div class = "midLeftColumn">
+					<p>
+						This is a project from one of my level design classes that I took at SMU Guildhall, and for this project, I decided
+						that I wanted to create a level with unique features and style that
+						would make the gameplay unique and enjoyable. Given that many players
+						enjoy fast and exciting gameplay and that Unreal Tournament 4 gives the player some 
+						interesting movement abilities, I decided that I wanted to design a level with these ideas
+						in mind and experiment with a design that would also make extensive use of mid-air
+						combat, which has shown potential for being fun in previous games.
+					</p>
+						
+					<p>
+						I started out designing this level by doing sketches to figure out the overall shape of the level
+						and laying down the main components of a CTF map, such as the team bases, outer base areas, and midground as 
+						well as planning the distribution of resources, such as weapons, health and armor pickups. After drafting
+						a promising design, I proceeded to prototype the level in Unreal Tournament Editor using BSP brushes 
+						to quickly block out the gameplay space of the level and leaving the aesthetics details for later. Once I had 
+						a playable level with all the promised features, I then started to iterate and refine the level gameplay 
+						after playtesting with other players and gathering their feedback.
+					</p>
 					
-				<p>
-					I started out designing this level by doing sketches to figure out the overall shape of the level
-					and laying down the main components of a CTF map, such as the team bases, outer base areas, and midground as 
-					well as planning the distribution of resources, such as weapons, health and armor pickups. After drafting
-					a promising design, I proceeded to prototype the level in Unreal Tournament Editor using BSP brushes 
-					to quickly block out the gameplay space of the level and leaving the aesthetics details for later. Once I had 
-					a playable level with all the promised features, I then started to iterate and refine the level gameplay 
-					after playtesting with other players and gathering their feedback.
-				</p>
+					<p>	
+						Once I had a solid gameplay layed out in my map, I then started to work on the aesthetics of the level;
+						I begun to replace the BSP brushes with static meshes and work on the lighting to make the level more
+						aesthetically pleasant and refine its look to achieve its current state 
+					</p>
+					
+					<div class="button">
+						<a href="EgocentricEmpanadas_LDD.docx">Level Design Document</a>
+					</div>
+					
+					<div class="button">
+						<a href="https://drive.google.com/open?id=18J5fxRHoXzco7JVNqYg8Oez_cTZd2GkW">Download this map!</a>
+					</div>
+					
 				
-				<p>	
-					Once I had a solid gameplay layed out in my map, I then started to work on the aesthetics of the level;
-					I begun to replace the BSP brushes with static meshes and work on the lighting to make the level more
-					aesthetically pleasant and refine its look to achieve its current state 
-				</p>
-				
-				<div class="button">
-					<a href="EgocentricEmpanadas_LDD.docx">Level Design Document</a>
 				</div>
 				
-				<div class="button">
-					<a href="https://www.youtube.com/watch?v=mqzJ3-L2gd0&t=1s"> See this map in action! </a>
+				<div class="midRightColumn">
+
+					<a href="images/LDMap/CTF-Empanadas.png" target="_blank"><img src="images/LDMap/CTF-Empanadas.png" alt="CTF level screenshot"></a>
+					<iframe width="1196" height="500" style="margin-top: 10%" src="https://www.youtube.com/embed/mqzJ3-L2gd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 				</div>
-			
+				
+				<div id="gameGallery">
+
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/Sketches/Diagram1.jpg" target="_blank"><img src="images/LDMap/Thumbnails/Diagram1_Thumb.jpg" class="floatedImages" alt="CTF sketch 1" width="300" height="170"></a>
+						</div>
+
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/Sketches/Diagram2.jpg" target="_blank"><img src="images/LDMap/Thumbnails/Diagram2_Thumb.jpg" class="floatedImages" alt="CTF sketch 2" width="300" height="170"></a>
+						</div>
+
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF-BSP1.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF-BSP1_Thumb.png" class="floatedImages" alt="CTF map screenshot 1(BSP)" width="300" height="170"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF-BSP2.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF-BSP2_Thumb.png" class="floatedImages" alt="CTF map screenshot 2(BSP)" width="300" height="170"></a>
+						</div>
+						
+				</div>
+				<hr>
 			</div>
 			
-			<div class="midRightColumn">
+			<div class="pageSection">
+				
+				<h2>Final Version</h2>
+				
+				<div id="gameGallery">
 
-				<a href="images/LDMap/CTF-Empanadas.png" target="_blank"><img src="images/LDMap/CTF-Empanadas.png" alt="CTF level screenshot"></a>
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF01.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF01_Thumb.png" class="floatedImages" alt="CTF map screenshot 1"></a>
+						</div>
 
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF02.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF02_Thumb.png" class="floatedImages" alt="CTF map screenshot 2"></a>
+						</div>
+
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF03.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF03_Thumb.png" class="floatedImages" alt="CTF map screenshot 3"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF04.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF04_Thumb.png" class="floatedImages" alt="CTF map screenshot 4"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF05.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF05_Thumb.png" class="floatedImages" alt="CTF map screenshot 5"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF06.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF06_Thumb.png" class="floatedImages" alt="CTF map screenshot 6"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF07.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF07_Thumb.png" class="floatedImages" alt="CTF map screenshot 7"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF08.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF08_Thumb.png" class="floatedImages" alt="CTF map screenshot 8"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF09.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF09_Thumb.png" class="floatedImages" alt="CTF map screenshot 9"></a>
+						</div>
+						
+						<div class="floatedImagesV2">
+							<a href="images/LDMap/CTF10.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF10_Thumb.png" class="floatedImages" alt="CTF map screenshot 10"></a>
+						</div>
+				</div>
+				<hr>
+			</div>	
+				
+			<div class="pageSection">	
+				<h3> About The Map's Name </h3>
+				
+				<div class="midLeftColumn">
+					<p>
+						The name of this map emerged from the original shape that the outer base area had 
+						during the gameplay design stage; the outer base consisted of two semi-circular platforms
+						that resemble the shape of empanadas (a popular pastry in Latin America that has a semi-circular shape) 
+						and because these empanada-shaped platforms were surrounding the bases and keeping these for themselves, 
+						they were deemed egocentric. 
+					</p>
+
+					<p>
+						During the development of the level aesthetics, replicating the shape of these platforms 
+						with static meshes without making it look weird was a hard thing to do, and because we
+						were not allowed to use custom mesh models to construct our maps, I decided to simplify
+						the shape of the outer base area to make it easier to construct with the given modular
+						pieces and achieve a more polished-looking look for these platforms.Egocentric Empanadas was 
+						in fact the working name for this map, and because it was a catchy, fun, and unique 
+						name that was well liked among my peers, I decided to keep it and make it part of the 
+						gimmick of the level: Egocentric Empanadas!  
+					</p>
+				</div>
+				
+				<div class="midRightColumn">
+					<a href="http://ahicherenlacocina.mex.tl/blog_671856_EMPANADAS-VENEZOLANAS-M-S-QUE-UNA-TRADICI-N--.html" target="_blank"><img src="images/LDMap/Empanada.jpg" alt="A reference picture of an empanada"></a>	
+					<a href="http://ahicherenlacocina.mex.tl/blog_671856_EMPANADAS-VENEZOLANAS-M-S-QUE-UNA-TRADICI-N--.html" target="_blank">
+						<h3>Image source</h3>
+					</a>
+				</div>
+				
 			</div>
-			
-			<div id="gameGallery">
-
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/Sketches/Diagram1.jpg" target="_blank"><img src="images/LDMap/Thumbnails/Diagram1_Thumb.jpg" class="floatedImages" alt="CTF sketch 1" width="300" height="170"></a>
-					</div>
-
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/Sketches/Diagram2.jpg" target="_blank"><img src="images/LDMap/Thumbnails/Diagram2_Thumb.jpg" class="floatedImages" alt="CTF sketch 2" width="300" height="170"></a>
-					</div>
-
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF-BSP1.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF-BSP1_Thumb.png" class="floatedImages" alt="CTF map screenshot 1(BSP)" width="300" height="170"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF-BSP2.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF-BSP2_Thumb.png" class="floatedImages" alt="CTF map screenshot 2(BSP)" width="300" height="170"></a>
-					</div>
-					
-			</div>
-			
-			<br /><br /><br />
-			
-			<br /><hr><br />
-			<h2>Final Version</h2>
-			
-			<div id="gameGallery">
-
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF01.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF01_Thumb.png" class="floatedImages" alt="CTF map screenshot 1"></a>
-					</div>
-
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF02.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF02_Thumb.png" class="floatedImages" alt="CTF map screenshot 2"></a>
-					</div>
-
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF03.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF03_Thumb.png" class="floatedImages" alt="CTF map screenshot 3"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF04.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF04_Thumb.png" class="floatedImages" alt="CTF map screenshot 4"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF05.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF05_Thumb.png" class="floatedImages" alt="CTF map screenshot 5"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF06.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF06_Thumb.png" class="floatedImages" alt="CTF map screenshot 6"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF07.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF07_Thumb.png" class="floatedImages" alt="CTF map screenshot 7"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF08.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF08_Thumb.png" class="floatedImages" alt="CTF map screenshot 8"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF09.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF09_Thumb.png" class="floatedImages" alt="CTF map screenshot 9"></a>
-					</div>
-					
-					<div class="floatedImagesV2">
-						<a href="images/LDMap/CTF10.png" target="_blank"><img src="images/LDMap/Thumbnails/CTF10_Thumb.png" class="floatedImages" alt="CTF map screenshot 10"></a>
-					</div>
-			</div>
-			
-			
-			<br /><br /><br /><br /><br /><hr><br />
-			
-			<h3> About The Map's Name </h3>
-			
-			<div class="midLeftColumn">
-				<p>
-					The name of this map emerged from the original shape that the outer base area had 
-					during the gameplay design stage; the outer base consisted of two semi-circular platforms
-					that resemble the shape of empanadas (a popular pastry in Latin America that has a semi-circular shape) 
-					and because these empanada-shaped platforms were surrounding the bases and keeping these for themselves, 
-					they were deemed egocentric. 
-				</p>
-
-				<p>
-					During the development of the level aesthetics, replicating the shape of these platforms 
-					with static meshes without making it look weird was a hard thing to do, and because we
-					were not allowed to use custom mesh models to construct our maps, I decided to simplify
-					the shape of the outer base area to make it easier to construct with the given modular
-					pieces and achieve a more polished-looking look for these platforms.Egocentric Empanadas was 
-					in fact the working name for this map, and because it was a catchy, fun, and unique 
-					name that was well liked among my peers, I decided to keep it and make it part of the 
-					gimmick of the level: Egocentric Empanadas!  
-				</p>
-			</div>
-			
-			<div class="midRightColumn">
-				<a href="http://ahicherenlacocina.mex.tl/blog_671856_EMPANADAS-VENEZOLANAS-M-S-QUE-UNA-TRADICI-N--.html" target="_blank"><img src="images/LDMap/Empanada.jpg" alt="A reference picture of an empanada"></a>	
-				<a href="http://ahicherenlacocina.mex.tl/blog_671856_EMPANADAS-VENEZOLANAS-M-S-QUE-UNA-TRADICI-N--.html" target="_blank">
-					<h3 id="buggyThing1">Image source</h3>
-				</a>
-			</div>
-			
 		</div>
 
 	</body>
