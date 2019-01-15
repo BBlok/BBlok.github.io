@@ -1,5 +1,12 @@
 /* By William Bracho Blok*/
 
+body{
+	margin:0;
+    padding:0;
+    background-image: url(tilingBackgroundV2.jpg);
+	background-attachment: fixed;
+
+}
 
 h1{
 	font-family: 'Audiowide', cursive;
@@ -8,13 +15,6 @@ h1{
 	text-align: left;
 }
 
-body{
-	margin:0;
-    padding:0;
-    background-image: url(tilingBackgroundV2.jpg);
-	background-attachment: fixed;
-
-}
 
 h2{
 	color: rgb(220,255,220);
@@ -44,6 +44,18 @@ h5{
 	font-size: 1em;
 	padding: 1em 0;
 	margin:0;
+}
+
+.contentBounds{
+	margin: 4% 8%;
+}
+
+.pageSection{
+	margin:0;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	max-width: 1600px;
+	display: flow-root;
 }
 
 .resumeSection h3{
@@ -148,16 +160,16 @@ h5{
 	margin-right: 8%;
 }
 
-p, .midLeftColumn ul, .midRightColumn ul, .pageContent li {
+p, .midLeftColumn ul, .midRightColumn ul, .pageSection li {
 	color: rgb(220,255,220);
 	font-family:'Coda', cursive;
  	font-size: 1.1em;
 	line-height: 2em;
 }
 
-.midRightColumn ul{
-	padding: 0 20%;
-}
+/* .midRightColumn ul{ */
+	/* padding: 0 20%; */
+/* } */
 
 a:link {
     text-decoration: none;
@@ -200,21 +212,21 @@ a:hover,a:active{
 
 
 
-.pageContent{
-	margin:0;
-	margin-top: 4%;
-	margin-bottom: 4%;
-	padding: 0 8%;
-	max-width: 1600px;
-	display: table;
-}
 
-.contentLeftColumn, .midLeftColumn, .midRightColumn{
+
+.midLeftColumn, .midRightColumn{
 	margin: 0;
 	padding: 0;
-	width: 62.5%;
 	display: inline-table;
 	float: left;
+}
+
+.contentLeftColumn{
+	margin: 0;
+    padding: 0;
+    width: 62.5%;
+    display: inline-table;
+    float: left;
 }
 
 .midRightColumn{
@@ -223,19 +235,22 @@ a:hover,a:active{
 }
 
 .midRightColumn img{
-	float: right;
-	width: 80%;
-	height: auto;
+	display: block;
+	width: 100%;
 }
 
-.midRightColumn p{
-	padding: 0 10%;
+/* .midRightColumn p{ */
+	/* padding: 0 10%; */
+/* } */
+
+.midRightColumn img{
+	margin: auto;
+	display: block;
+	width: 100%
 }
 
 .midRightColumn iframe{
-	margin: auto;
-	display: block;
-	width: 80%
+	width: 100%;
 }
 
 .itchFrame{
@@ -244,12 +259,11 @@ a:hover,a:active{
 }
 
 .midRightColumn h3, .midRightColumn p{
-	margin: auto;
 	width: 80%;
 }
 
 .midLeftColumn{
-	width: 50%;
+	width: 44%;
 }
 
 .midLeftColumn ul{
@@ -267,10 +281,12 @@ a:hover,a:active{
 	height: 60%;
 	padding: 2em 0;
 	margin: auto;
+	margin-right:0;
     display: block;
 }
 .contentRightColumn h3{
 	margin: auto;
+	margin-right:0;
     text-align: center;
 	width: 60%;
 	padding: 0;
@@ -317,15 +333,6 @@ a:hover,a:active{
 		padding: 2% 0;
 }
 
-.midRightColumnV2{
-	max-width: 45%;
-	margin: 0;
-	float:right;
-	padding: 0 0 0 5%;
-}
-
-
-
 footer{
 	clear: right;
 	max-width: none;
@@ -359,13 +366,20 @@ footer p{
 		float: none;
 	}
 	
+	.contentRightColumn img{
+		margin-right: auto;
+	}
+	
+	.contentRightColumn h3{
+		margin-right: auto;
+	}
+	
 	.midRightColumn, .contentRightColumn{
 		margin-top: 15%;
 	}
 	
 	.midRightColumn img{
 		display: block;
-		margin: 10%;
 		height: auto;
 	}
 	

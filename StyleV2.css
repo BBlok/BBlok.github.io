@@ -167,9 +167,9 @@ p, .midLeftColumn ul, .midRightColumn ul, .pageSection li {
 	line-height: 2em;
 }
 
-.midRightColumn ul{
-	padding: 0 20%;
-}
+/* .midRightColumn ul{ */
+	/* padding: 0 20%; */
+/* } */
 
 a:link {
     text-decoration: none;
@@ -214,11 +214,19 @@ a:hover,a:active{
 
 
 
-.contentLeftColumn, .midLeftColumn, .midRightColumn{
+.midLeftColumn, .midRightColumn{
 	margin: 0;
 	padding: 0;
 	display: inline-table;
 	float: left;
+}
+
+.contentLeftColumn{
+	margin: 0;
+    padding: 0;
+    width: 62.5%;
+    display: inline-table;
+    float: left;
 }
 
 .midRightColumn{
@@ -231,9 +239,9 @@ a:hover,a:active{
 	width: 100%;
 }
 
-.midRightColumn p{
-	padding: 0 10%;
-}
+/* .midRightColumn p{ */
+	/* padding: 0 10%; */
+/* } */
 
 .midRightColumn img{
 	margin: auto;
@@ -273,10 +281,12 @@ a:hover,a:active{
 	height: 60%;
 	padding: 2em 0;
 	margin: auto;
+	margin-right:0;
     display: block;
 }
 .contentRightColumn h3{
 	margin: auto;
+	margin-right:0;
     text-align: center;
 	width: 60%;
 	padding: 0;
@@ -354,6 +364,14 @@ footer p{
 	.contentLeftColumn, .contentRightColumn, .midRightColumn, .midLeftColumn{
 		width: 100%;
 		float: none;
+	}
+	
+	.contentRightColumn img{
+		margin-right: auto;
+	}
+	
+	.contentRightColumn h3{
+		margin-right: auto;
 	}
 	
 	.midRightColumn, .contentRightColumn{
