@@ -51,7 +51,7 @@ h5{
 }
 
 .pageSection{
-	margin:0;
+	margin:auto;
 	margin-top: 4%;
 	margin-bottom: 4%;
 	max-width: 1600px;
@@ -124,6 +124,7 @@ h5{
 
 .bannerWrap{
 	max-width:1600px;
+	margin: auto;
 }
 
 .footerWrap{
@@ -140,11 +141,11 @@ h5{
 }
 
 .bannerLeft{
-	width: 75%;
+	width: 70%;
 }
 
 .bannerRight{
-	width: 25%;
+	width: 30%;
 	float:right;
 }
 
@@ -345,7 +346,6 @@ footer{
 	padding: 2% 0;
 	top:8em;
 	bottom: 0;
-	position: relative;
 }
 
 
