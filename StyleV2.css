@@ -58,6 +58,11 @@ h5{
 	display: flow-root;
 }
 
+.pageSection .pageSectionTitle{
+    padding: 0% 5%;
+    margin-bottom: 1%;
+}
+
 .resumeSection h3{
 	
 	padding: 0em 0em 1em 0;
